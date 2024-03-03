@@ -1,0 +1,52 @@
+.kode-mono-btn {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: seagreen;
+}
+
+.title {
+    font-size: 5rem;
+    margin: 50px;
+}
+
+.big-title {
+    color: aquamarine;
+    text-shadow: 3px 3px 3px red;
+}
+
+.big-title2 {
+    color: red;
+    text-shadow: 3px 3px 3px blue;
+}
+
+.big-title3 {
+    color: blue;
+    text-shadow: 3px 3px 3px aquamarine;
+}
+
+.btn {
+    outline: none;
+    border:  2px solid black;
+    border-radius: 4px;
+    padding: .5rem;
+    background-color: indianred;
+    color: yellow;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+.btn-small{
+    padding: .2rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: red;
+
+}
